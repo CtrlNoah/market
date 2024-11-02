@@ -1,3 +1,136 @@
 <nav id="nav">
-    <h1>Navbar</h1>
+
+    <div class="container">
+
+        <div class="nav-content">
+
+            <div class="nav-logo">
+                <img src="../src/shared/icons/logo-icon.svg" class="logo-dekstop" alt="Логотип">
+                <img src="../src/shared/icons/logo-mobile.svg" class="logo-mobile" alt="Логотип">
+            </div>
+
+            <div class="catalog">
+                <a href="#" class="catalog-button">
+
+                    <svg width="24" class="menu-img" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.5 12C2.5 11.7239 2.72386 11.5 3 11.5H21C21.2761 11.5 21.5 11.7239 21.5 12C21.5 12.2761 21.2761 12.5 21 12.5H3C2.72386 12.5 2.5 12.2761 2.5 12Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.5 6C2.5 5.72386 2.72386 5.5 3 5.5H21C21.2761 5.5 21.5 5.72386 21.5 6C21.5 6.27614 21.2761 6.5 21 6.5H3C2.72386 6.5 2.5 6.27614 2.5 6Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.5 18C2.5 17.7239 2.72386 17.5 3 17.5H21C21.2761 17.5 21.5 17.7239 21.5 18C21.5 18.2761 21.2761 18.5 21 18.5H3C2.72386 18.5 2.5 18.2761 2.5 18Z"
+                            fill="white" />
+                    </svg>
+                    <span class="catalog-text">Каталог</span>
+                </a>
+                <div class="product-list">
+                    <div>
+                        <a href="#">Молоко, сыр, яйцо</a>
+                        <a href="#">Хлеб</a>
+                        <a href="#">Фрукты и овощи</a>
+                        <a href="#">Замороженные продукты</a>
+                    </div>
+                    <div>
+                        <a href="#">Напитки</a>
+                        <a href="#">Кондитерские изделия</a>
+                        <a href="#">Чай, кофе</a>
+                    </div>
+                    <div>
+                        <a href="#">Бакалея</a>
+                        <a href="#">Здоровое питание</a>
+                        <a href="#">Зоотовары</a>
+                    </div>
+                    <div>
+                        <a href="#">Непродовольственные товары</a>
+                        <a href="#">Детское питание</a>
+                        <a href="#">Мясо, птица, колбаса</a>
+                    </div>
+                </div>
+            </div>
+
+            <input type="text" placeholder="Найти товар" class="search-input">
+
+            <button class="autorization-btn" type="button">Вход</button>
+
+            <div class="register-background">
+                <div class="autorization-modal">
+                    <img src="../src/shared/icons/close-modal.svg" class="close-modal" alt="X">
+
+                    <p class="enter-text">Вход</p>
+
+                    <form id="form" action="#">
+                        <div class="telephone-content">
+                            <span class="tel-text">Телефон</span>
+                            <input class="tel-input" type="tel" placeholder="+7">
+                        </div>
+                        <button class="enter-btn" type="submit">Вход</button>
+                    </form>
+                    <div class="registration-content">
+                        <a href="#" class="registration">Регистрация</a>
+                        <a href="#" class="forgot-password">Забыли пароль?</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-field">
+                <div class="favorites-content">
+                    <a href="#">
+                        <img class="user-field-img" src="../src/shared/icons/favorite-icon.svg" alt="Избранное">
+                        <span class="user-field-text">Избранное</span>
+                    </a>
+                </div>
+                <div class="orders-content">
+                    <a href="#">
+                        <img class="user-field-img" src="../src/shared/icons/orders-icon.svg" alt="Избранное">
+                        <span class="user-field-text">Заказы</span>
+                    </a>
+                </div>
+
+                <div class="cart-content">
+                    <span class="cart-count">0</span>
+                    <a href="#">
+                        <img class="user-field-img" src="../src/shared/icons/shopping-cart.svg" alt="Избранное">
+                        <span class="user-field-text">Корзина</span>
+                    </a>
+                </div>
+
+                <div class="user-content">
+                    <img src="../src/shared/icons/user-avatar.svg" alt="Ваш аватар">
+                    <p class="user-name">Алексей</p>
+                    <button type="menu" class="user-menu-button"><img src="../src/shared/icons/chevron-down.svg"
+                            alt=">"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="products">
+            <a href="#">Молоко, сыр, яйцо</a>
+            <a href="#">Хлеб</a>
+            <a href="#">Фрукты и овощи</a>
+            <a href="#">Замороженные продукты</a>
+
+            <a href="#">Напитки</a>
+            <a href="#">Кондитерские изделия</a>
+            <a href="#">Чай, кофе</a>
+
+            <a href="#">Бакалея</a>
+            <a href="#">Здоровое питание</a>
+            <a href="#">Зоотовары</a>
+
+            <a href="#">Непродовольственные товары</a>
+            <a href="#">Детское питание</a>
+            <a href="#">Мясо, птица, колбаса</a>
+        </div>
+
+
+    </div>
+
+    <div class="delivery-info">
+        <img src="../src/shared/images/intro-img.png" alt="">
+        <p class="delivery-text">Доставка бесплатно от 1000 ₽</p>
+    </div>
 </nav>

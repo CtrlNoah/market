@@ -1,0 +1,141 @@
+#footer {
+    padding: 24px 0px;
+    background-image: url('../../icons/footer-bg.svg');
+    background-repeat: round;
+}
+
+.container {
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--font-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-contacts,
+.social-media,
+.phone-content {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.social-media {
+    column-gap: 16px;
+}
+
+.phone-content {
+    column-gap: 6px;
+}
+
+.phone-content>a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.desiner-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    column-gap: 6px;
+}
+
+.desiner-info>p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--font-color);
+}
+
+.social-link {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.5s;
+    position: relative; 
+
+}
+
+
+.social-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.social-link:hover:before {
+    opacity: 1; 
+}
+
+.social-link:hover {
+    transform: rotate(360deg) scale(1.9); 
+}
+
+
+@media (max-width: 360px) {
+    #footer {
+        padding: 40px 28px;
+    }
+
+    .footer-contacts {
+        order: 1;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .footer-content {
+        row-gap: 16px;
+    }
+
+    .personal-policy {
+        margin-top: 16px;
+    }
+
+    .links {
+        order: 2;
+        flex-wrap: wrap;
+        column-gap: 16px;
+    }
+
+    .footer-logo {
+        width: 93px;
+    }
+
+    .footer-logo>img {
+        width: 100%;
+    }
+
+    .desiner-info {
+        display: none;
+    }
+}

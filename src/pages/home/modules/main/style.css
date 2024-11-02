@@ -1,0 +1,377 @@
+.offers-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.main {
+    margin-top: 120px;
+}
+
+
+.offer-heading,
+.our-addresses {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: var(--font-color);
+}
+
+.about-card,
+.about-bonus {
+    background: rgba(252, 213, 186, 1);
+    box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 8px 31px 8px 40px;
+    width: 584px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.about-bonus {
+    background-color: #E5FFDE;
+    align-self: stretch;
+    position: relative;
+}
+
+.about-card>img {
+    filter: drop-shadow(0px 8px 47px #C85A3582);
+
+}
+
+.card-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--font-color);
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--font-color);
+}
+
+.bonus-content {
+    position: relative;
+}
+
+.r-top1,
+.r-top2,
+.r-bottom1,
+.r-bottom2 {
+    position: absolute;
+}
+
+.r-bottom1 {
+    bottom: 22px;
+    left: 12px;
+}
+
+.r-bottom2 {
+    bottom: 21px;
+    right: 12px;
+}
+
+.r-top2 {
+    top: -8px;
+    right: -5px;
+}
+
+.bonus-1,
+.bonus-2,
+.bonus-3,
+.bonus-4,
+.bonus-5,
+.bonus-6,
+.bonus-7,
+.bonus-8,
+.bonus-9,
+.bonus-10 {
+    position: absolute;
+}
+
+.bonus-1 {
+    width: 9px;
+    height: 8px;
+    top: 176px;
+    left: 21px;
+}
+
+.bonus-2 {
+    width: 12px;
+    height: 11px;
+    top: 17px;
+    left: 178px;
+}
+
+.bonus-3 {
+    width: 18px;
+    height: 17px;
+    top: 49px;
+    left: 320px;
+}
+
+.bonus-4 {
+    width: 12px;
+    height: 11px;
+    top: 167px;
+    left: 314px;
+}
+
+.bonus-5 {
+    width: 33px;
+    height: 31px;
+    top: 102px;
+    left: 338px;
+}
+
+.bonus-6 {
+    width: 27px;
+    height: 26px;
+    top: 17px;
+    left: 445px;
+}
+
+.bonus-7 {
+    width: 12px;
+    height: 11px;
+    top: 168px;
+    left: 466px;
+}
+
+.bonus-8 {
+    width: 40px;
+    height: 39px;
+    top: 102px;
+    left: 515px;
+}
+
+.bonus-9 {
+    width: 12px;
+    height: 11px;
+    top: 14px;
+    left: 538px;
+}
+
+.bonus-10 {
+    width: 12px;
+    height: 11px;
+    top: 173px;
+    left: 567px;
+}
+
+.our-address-container {
+    margin-top: 120px;
+}
+
+#map {
+    height: 354px;
+    width: 100%;
+}
+
+.address-button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: var(--font-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.address-button:hover {
+    background-color: #70C05B;
+    color: #fff;
+}
+
+
+.articles-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.articles-section {
+    margin-bottom: 80px;
+}
+
+
+.first-article,
+.second-article,
+.third-article {
+    width: 376px;
+    box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+    height: 420px;
+}
+
+.first-article>img,
+.second-article>img,
+.third-article>img {
+    height: 150px;
+    width: 100%;
+}
+
+.date-article {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(143, 143, 143, 1);
+}
+
+.article-info {
+    padding: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: var(--font-color);
+}
+
+.article-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--font-color);
+}
+
+.more-info-link {
+    background-color: rgba(229, 255, 222, 1);
+    border-radius: 4px;
+    padding: 8px;
+    color: rgba(112, 192, 91, 1);
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.more-info-link:hover {
+    background-color: rgba(112, 192, 91, 1);
+    color: rgba(255, 255, 255, 1);
+} 
+
+
+
+@media (max-width: 360px) {
+    .offer-heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .about-card,
+    .about-bonus {
+        max-width: 336px;
+        padding: 20px;
+        position: relative;
+    }
+
+    .about-card {
+        overflow: hidden;
+    }
+
+    .about-card>img {
+        position: absolute;
+        width: 75%;
+        height: auto;
+        top: -6.86px;
+        left: 159.55px;
+    }
+
+    .card-heading {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .card-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .special-offer,
+    .our-address-container,.articles-section {
+        padding: 0 8px;
+    }
+
+    .offers-content {
+        justify-content: center;
+    }
+
+    .bonus-card-img {
+        width: 132px;
+    }
+
+    .r-bottom1 {
+        width: 15px;
+    }
+
+    .r-top2 {
+        width: 20px;
+    }
+
+    .r-top1 {
+        width: 30px;
+    }
+
+    .bonus-1 {
+        top: 150px;
+    }
+
+    .bonus-2 {
+        left: 20px;
+    }
+
+    .bonus-3 {
+        top: 140px;
+        left: 180px;
+    }
+
+    .bonus-4 {
+        top: 20px;
+        left: 100px;
+    }
+
+    .bonus-5 {
+        top: 50px;
+        left: 133px;
+    }
+
+    .bonus-6 {
+        left: 160px;
+    }
+
+    .bonus-7 {
+        top: 89px;
+        left: 190px;
+    }
+
+    .bonus-8 {
+        left: 285px;
+        top: 125px;
+    }
+
+    .bonus-9 {
+        left: 120px;
+    }
+
+    .bonus-10 {
+        left: 150px;
+        top: 102px;
+    }
+}
